@@ -1,0 +1,13 @@
+:root { --bg: #f6f2e8; --text: #1f2a28; --muted: #5b6662; --accent: #2f5d50; --card: #ffffff; --line: #ddd5c4; }
+@media (prefers-color-scheme: dark) { :root { --bg: #142321; --text: #ece6d8; --muted: #a9b4ae; --accent: #8fc7b3; --card: #1c2f2c; --line: #2e4541; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, "Hiragino Sans", "BIZ UDPGothic", sans-serif; line-height: 1.8; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { margin-bottom: 24px; }
+header p { margin: 0; color: var(--muted); font-size: 14px; }
+h1 { font-size: 26px; margin: 4px 0 0; }
+h2 { font-size: 19px; margin: 32px 0 8px; color: var(--accent); }
+section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 20px 16px; margin-bottom: 16px; }
+nav { margin-top: 32px; font-size: 14px; }
+a { color: var(--accent); }
+footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
